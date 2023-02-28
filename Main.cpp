@@ -128,8 +128,8 @@ int main() {
 	print_arr(arr5, size5);
 	std::cout << "Введите число -> ";
 	std::cin >> n;
+	std::cout << "Среднее арифметическое элементов, больших " << n << ": " << change_arr(arr5, size5, n) << std::endl;
 	std::cout << "Итоговый массив:\n";
-	std::cout << change_arr(arr5, size5, n) << std::endl;
 	print_arr(arr5, size5);
 	std::cout << std::endl;
 
